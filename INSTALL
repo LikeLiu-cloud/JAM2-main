@@ -1,0 +1,40 @@
+Some complier needs the option -std=c++11 or
+
+Install Pythia8 to your preferred directory:
+./configure --prefix=$HOME/lib/pythia8
+make install
+
+
+
+./autogen
+
+or
+autoreconf -i
+./configure
+
+or
+aclocal
+autoheader
+automake -a
+autoconf
+libtoolize
+
+Note: In the first compilation, you need to copy the libtool script (ltmain.sh)
+which corresponds to the libtool of your system.
+
+Specify the path and compile options such as:
+
+export PYTHIA8="$HOME/lib/pythia8"
+export CXXFLAGS="-march=native -mtune=native -O3 -pipe -Wall -mfpmath=both -fbounds-check"
+
+Then go to JAM source directory and do
+  ./configure
+
+or
+  ./configure PYTHIA8=$HOME/lib/pythia8 --prefix=$HOME/lib
+
+then
+make
+make install
+
+

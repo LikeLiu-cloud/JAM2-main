@@ -1,0 +1,93 @@
+# JAM version 2.1000
+# input file name= input/TestCascadeDecay.inp
+ random seed = 1
+addNuclResonance particle added, which is not defined in pythia8 id= 102118
+addNuclResonance particle added, which is not defined in pythia8 id= 112118
+addDeltaResonance this particle is not defined in pythia8 id= 231112
+addDeltaResonance this particle is not defined in pythia8 id= 221116
+addLambdaResonance this particle is not defined in pythia8 id= 23126 ix= 11
+ HadronVertex:kappa= 1 Vertex:mode= 0
+ aLind= 0.68 bLind= 0.98
+ma = 197: mb = 197: stra = 197Au: strb = 197Au: ecm = 7.7
+ ecm= 7.7 pcm= 3.73391 ycm= 2.08971 pLab= 30.6417 eLab= 29.7178 gamma= 4.10317 v= 0.969847
+initial condition:colliding two nuclei initCond= 1
+ MPI= 1
+ ProcessLevel:all= 1
+ PartonLevel:all= 1
+ softqcd= 0
+ elasitc= 0
+ inel= 1
+soft= 0
+sd= 0
+xb= 0
+ax= 0
+dd= 0
+doCD= 0
+# pauli= 2
+Cascade mode: no mean-field 0
+# trune = 14
+#  inel = 1
+ soft nondiff = 0
+# sigmaTotal:mode= 1
+# StringFlav:probQQtoQ 0.07
+# StringFlav:popcornRate= 0.15
+optBoxBoundary = 0
+ grid x= 10 grid y= 10 grid z= 10
+ dx= 2.52313 dy= 2.52313 dz= 2.52313
+ xMin= -12.6157 yMin= -12.6157 zMin= -12.6157
+ xMax= 12.6157 yMax= 12.6157 zMax= 12.6157
+Box expansion start at 2.52313 with the velocity Vx= 0.2 Vy= 0.2 vZ= 0.2
+mf mode = 0: pot = 2: EoS = 12
+Error in SoftStrings::eldiff:  too low invariant mass for diffraction eCM= 3.55283 id1= 202116 id2= 3122
+excite1= 0 excite2= 1
+m1= 2.13948 m01= 0.93957 mA= 2.13948
+m2= 1.11568 m02= 1.11568 mB= 1.41568
+ mAmin+mBmin= 3.55516
+total particle = 1255
+proton = 173
+anti-proton = 0
+pi- = 270
+pi+ = 229
+pi0 = 257
+K-  = 16
+K+  = 36
+K0+K0bar= 0
+K_S0= 0
+K_L0= 37
+Lambda= 10
+Lambdabar= 0
+Sigma-= 8
+anti-Sigma+= 0
+Sigma+= 9
+ani-Sigma+= 0
+Sigma0= 0
+ani-Sigma0= 0
+   number of expected Glauber type initial collision= 815.000000
+   number of total   collision = 4142.000000
+   number of BB      collision = 1182.000000
+   number of MB      collision = 2075.000000
+   number of MM      collision = 878.000000
+   number of BBar    collision = 7.000000
+   number of BbarBar collision = 0.000000
+   number of RR->NN  collision = 29.000000
+   number of elastic collision = 896.000000
+   number of absorption = 1204.000000
+   number of decay = 1343.000000
+   number of Pauli Blocking = 28.000000
+ ave const. formation time= 0.674339 formation time= 0.588792
+JPythia::ave const. formation time= 0.000000 formation time= 0.000000
+JPythia::ave const. formation time= 0.000000 formation time= 0.000000
+max. impact par. for two-body collision 2.475246
+2024 01:3:3:22:56
+2024/1/3 03:22:56
+CPU time 4.230000[s]
+CPU time= 0 h 0 m 4 s
+*** Float Point Exception is OFF ***
+ *** Start at Date : Wed Jan  3 03:22:56 2024
+QAInfo:You are using STAR_LEVEL : pro, ROOT_LEVEL : 5.34.38 and node : rcas6009.rcf.bnl.gov 
+
+Processing makeTree.C+("phase.txt")...
+(int)0
+
+This is the end of ROOT -- Goodbye
+
